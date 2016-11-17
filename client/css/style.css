@@ -1,0 +1,39 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#excerpt{
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+}
+
+/*@media (max-width:995px){
+  .flex-s{
+    display: flex;
+    flex-direction: column;
+  }
+}*/
+
+.links{
+  color: #3F51B5;
+}
+
+.links:hover{
+  color: grey;
+  text-decoration: underline; 
+}
+
+.brand-logo{
+  margin-left: 10px;
+}
+
+.port-image{
+  padding: 15px;
+}
+
+#personal-photo{
+  border-radius:500px; 
+  width: 310px;
+  height:310px;
+}
