@@ -31,9 +31,9 @@ app.factory('MainFactory', function() {
     var factory = {};
 
     factory.languages = ["JavaScript","Python","Swift"];
-    factory.frameworks = ["Node.js","AngularJS","Express.js","jQuery","Flask"]; // ,"React.js"
+    factory.frameworks = ["Node.js","AngularJS","Express.js","Flask","Socket.io"]; // ,"React.js"
     factory.databases = ["MySQL", "MongoDB", "SQL", "NoSQL"];  
-    factory.tools = ["Git", "AWS EC2","AJAX","Unix/Linux","Socket.io","Xcode"];
+    factory.tools = ["jQuery","Git", "AWS EC2","AJAX","Unix/Linux","Xcode"];
     factory.design = ["HTML5","CSS3","Bootstrap","Materialize","Photoshop","Illustrator"];
     factory.misc = ["PTC Creo","AutoCAD","SolidWorks","SketchUp","3D Studio Max","Microsoft Office Suite","Ping Pong"]; 
 
