@@ -70,41 +70,6 @@ app.controller('MainController', function($scope, MainFactory) {
     $scope.misc = MainFactory.misc;
 
 })
-////////////////////////////////////////////////////////////
-//                   Game Controller                      //
-////////////////////////////////////////////////////////////
-
-app.controller('GameController', function($scope, MainFactory) {
-    console.log('Game Controller loaded');
-    MainFactory.index(function(data) {
-        console.log(data);
-        $scope.scores = data;
-    });
-    console.log($scope.scores);
-    // $scope.username = prompt("please enter a username");
-
-    $scope.inputStyle = {'background-color':'none'}
-    $scope.resetOn = false;
-    $scope.editMode = false;
-    $scope.isDisabled = false;
-    $scope.resetDisabled = true;
-    $scope.new_paragraph = Math.floor(Math.random()*$scope.paragraphs.length);
-    $scope.text = $scope.paragraphs[$scope.new_paragraph];
-    $scope.total_length = $scope.text.length;
-    $scope.words = $scope.text.split(" ");
-    $scope.finished = "";
-    var editAttr = {};
-    for (var i = 0; i < $scope.words.length-1; i++){
-        $scope.words[i] = $scope.words[i]+" ";
-    }
-    $scope.totaltype = '';
-    $scope.progress = 0;
-    $scope.wpm = 0;
-
-    $scope.index = 0;
-    $scope.text_disable = true;
-
-})
 
 
 
