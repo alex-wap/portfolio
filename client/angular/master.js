@@ -31,7 +31,7 @@ app.factory('MainFactory', function() {
     var factory = {};
 
     factory.languages = ["JavaScript","Python","Swift"];
-    factory.frameworks = ["Node.js","AngularJS","Express.js","Flask","Socket.io"]; // ,"React.js"
+    factory.frameworks = ["Node.js","AngularJS","Express.js","Flask","Socket.io","Scrum"]; // ,"React.js"
     factory.databases = ["MySQL", "MongoDB", "SQL", "NoSQL"];  
     factory.tools = ["jQuery","Git", "AWS EC2","AJAX","Unix/Linux","Xcode","Nginx"];
     factory.design = ["HTML5","CSS3","Bootstrap","Materialize","Photoshop","Illustrator"];
