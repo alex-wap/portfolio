@@ -30,8 +30,8 @@ app.config(function ($routeProvider) {
 app.factory('MainFactory', function() {
     var factory = {};
 
-    factory.languages = ["JavaScript","Python","Swift", "HTML5","CSS3"];
-    factory.frontend = ["AngularJS","jQuery","AJAX","Bootstrap","Materialize"]; // ,"React.js"
+    factory.languages = ["JavaScript","Python","Swift", "HTML5","CSS3"]; // ,"JSX"
+    factory.frontend = ["AngularJS","jQuery","AJAX","Bootstrap","Materialize"]; // ,"React.js","Webpack"
     factory.backend = ["Node.js","Flask","Express.js","Socket.IO","AWS EC2","Nginx"];
     factory.database = ["MySQL", "MongoDB", "SQL", "NoSQL"];
     factory.software = ["Git","Xcode","Unix","Linux","Photoshop","Illustrator"];
