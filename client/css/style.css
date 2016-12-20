@@ -6,6 +6,10 @@ body{
   background-color: #e8eaf6;
 }
 
+#name-text{
+  font-size: 34pt;
+}
+
 h1,h2,h3,h4,h5,h6,.brand-logo,#typingdojo,#crime,#beast,#simple,#user-dash,#snippet{
   font-family: 'Montserrat', sans-serif;
 }
