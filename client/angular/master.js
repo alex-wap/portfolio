@@ -32,7 +32,7 @@ app.factory('MainFactory', function() {
 
     factory.languages = ["JavaScript","Python","Swift", "HTML5","CSS3"]; // ,"JSX"
     factory.frontend = ["AngularJS","jQuery","AJAX","Bootstrap","Materialize"]; // ,"React.js","Webpack"
-    factory.backend = ["Node.js","Flask","Express.js","Socket.IO","AWS EC2","Nginx","RESTful"];
+    factory.backend = ["Node.js",,"Django","Flask","Express.js","Socket.IO","AWS EC2","Nginx","RESTful"];
     factory.database = ["MySQL", "MongoDB", "SQL", "NoSQL", "Mongoose", "MAMP"];
     factory.software = ["Git","Xcode","Unix","Linux","Photoshop","Illustrator"];
     factory.misc = ["Scrum","AutoCAD","PTC Creo","SolidWorks","3D Studio Max","Microsoft Office Suite","Ping Pong"]; 
