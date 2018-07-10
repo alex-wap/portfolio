@@ -30,9 +30,9 @@ app.config(function ($routeProvider) {
 app.factory('MainFactory', function() {
     var factory = {};
 
-    factory.languages = ["C#","JavaScript","Python","Swift","HTML5","CSS3"]; // ,"JSX"
-    factory.frontend = ["AngularJS","jQuery","AJAX","Bootstrap","Materialize"]; // ,"React.js","Webpack"
-    factory.backend = [".NET","Node.js","Django","Flask","Express.js","Socket.IO","AWS EC2","Nginx","RESTful"];
+    factory.languages = ["C#","JavaScript","Python","Swift","PowerShell","HTML5","CSS3"];
+    factory.webservices = ["Amazon Web Services EC2", "AWS S3","AWS Lambda","Azure VM","Azure App Service"]; 
+    factory.backend = [".NET","Node.js","Django","Flask","Express.js","Socket.IO","Nginx"];
     factory.database = ["MySQL", "MongoDB", "SQL", "NoSQL", "Mongoose", "MAMP"];
     factory.software = ["Git","Visual Studio","Xcode","Unix","Linux","Windows","Photoshop","Illustrator"];
     factory.misc = ["Scrum","AutoCAD","PTC Creo","SolidWorks","3D Studio Max","Ping Pong"]; 
@@ -46,7 +46,7 @@ app.controller('MainController', function($scope, MainFactory) {
     console.log('Main Controller loaded');
 
     $scope.languages = MainFactory.languages;
-    $scope.frontend = MainFactory.frontend;
+    $scope.webservices = MainFactory.webservices;
     $scope.backend = MainFactory.backend;
     $scope.database = MainFactory.database;
     $scope.software = MainFactory.software;
